@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +23,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Alpha{
+  color: bisque;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #282c34;
+}
+.Alpha-footer {
+  font-size: 24px;
 }
 
 .App-link {
