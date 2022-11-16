@@ -4,13 +4,13 @@ import '../../App.css';
 function Alpha() {
   return (
     <div className="Alpha">
-      <footer className="Alpha-footer"><strong>Alpha Team!</strong>
+      <div className="Alpha-footer"><strong>Alpha Team!</strong>
       <br></br>
         <span className="Alpha-member">
           Alexis C.
         </span>
         
-      </footer>
+      </div>
     </div>
   );
 }
