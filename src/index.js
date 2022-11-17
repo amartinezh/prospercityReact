@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Header from './components/header/Header';
 import Mi from './components/my_prosper/mi';
+import Eficientes from './components/eficientes/Eficientes'
 import reportWebVitals from './reportWebVitals';
 import Calcula from './components/Calcula/calculaComponent';
 import Alpha from './components/alpha/Alpha';
@@ -15,6 +16,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Header />
+    <Eficientes />
     <Mi />
     <Calcula />
     <Alpha />
