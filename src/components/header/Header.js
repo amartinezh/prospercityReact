@@ -1,6 +1,6 @@
 import logo from './prosper.png';
 import '../../App.css';
-import Alpha from '../alpha/Alpha';
+
 
 function Header() {
   return (
@@ -12,7 +12,6 @@ function Header() {
         </p>
         
       </header>
-      <Alpha />
     </div>
   );
 }
