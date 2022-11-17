@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import Mi from './components/my_prosper/mi';
 import reportWebVitals from './reportWebVitals';
 import Calcula from './components/Calcula/calculaComponent';
+import MayusJeison from './components/mayusjeison/MayusJeison';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Header />
     <Mi />
     <Calcula />
+    <MayusJeison/>
   </React.StrictMode>
 );
 
