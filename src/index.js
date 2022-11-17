@@ -7,6 +7,7 @@ import Mi from './components/my_prosper/mi';
 import Eficientes from './components/eficientes/Eficientes'
 import reportWebVitals from './reportWebVitals';
 import Calcula from './components/Calcula/calculaComponent';
+import MayusJeison from './components/mayusjeison/MayusJeison';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,10 +17,8 @@ root.render(
     <Eficientes />
     <Mi />
     <Calcula />
+    <MayusJeison/>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
