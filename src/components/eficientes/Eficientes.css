@@ -1,0 +1,32 @@
+.content {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+
+img {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+p {
+  color: aliceblue;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.img {
+  /*   margin: auto; */
+  width: 20%;
+}
