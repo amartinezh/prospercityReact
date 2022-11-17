@@ -6,6 +6,7 @@ import Header from './components/header/Header';
 import Mi from './components/my_prosper/mi';
 import Eficientes from './components/eficientes/Eficientes'
 import reportWebVitals from './reportWebVitals';
+import Calcula from './components/Calcula/calculaComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Header />
     <Eficientes />
     <Mi />
+    <Calcula />
   </React.StrictMode>
 );
 
