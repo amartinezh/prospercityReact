@@ -2,6 +2,7 @@ import ema from "./Ema.jpg";
 import ayda from "./Ayda.jpg";
 import jose from "./Jose.jpg";
 import "./Eficientes.css";
+import EficientesState from "../eficientesState/EficientesState";
 
 function Eficientes() {
   return (
@@ -21,6 +22,7 @@ function Eficientes() {
           <p>Jose Luis Giraldo</p>
         </div>
       </div>
+      <EficientesState/>
     </div>
   );
 }
