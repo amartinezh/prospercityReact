@@ -10,6 +10,7 @@ import Calcula from './components/Calcula/calculaComponent';
 import Alpha from './components/alpha/Alpha';
 import MayusJeison from './components/mayusjeison/MayusJeison';
 import { ButtonAlpha } from './components/alpha/ButtonAlpha';
+import Contarpalabras from './components/alpha/Contarpalabras';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <Alpha />
     <ButtonAlpha />     
     <MayusJeison/>
+    <Contarpalabras/>
   </React.StrictMode>
 );
 
