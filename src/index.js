@@ -7,7 +7,9 @@ import Mi from './components/my_prosper/mi';
 import Eficientes from './components/eficientes/Eficientes'
 import reportWebVitals from './reportWebVitals';
 import Calcula from './components/Calcula/calculaComponent';
+import Alpha from './components/alpha/Alpha';
 import MayusJeison from './components/mayusjeison/MayusJeison';
+import { ButtonAlpha } from './components/alpha/ButtonAlpha';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
     <Eficientes />
     <Mi />
     <Calcula />
+    <Alpha />
+    <ButtonAlpha />     
     <MayusJeison/>
   </React.StrictMode>
 );
