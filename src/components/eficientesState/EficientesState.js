@@ -17,14 +17,16 @@ class EficientesState extends Component {
     return (
       //lo que retorna el function
       <>
-        <h1>Convierte tu texto en mayusculas</h1>
-        <p className="result">{this.state.Frase.toLocaleUpperCase()}</p>
-        <input
-          className="content"
-          type="text"
-          onChange={this.conversion}
-          value={this.state.Frase}
-        />
+        <div className="box">
+          <h1>Convierte tu texto en mayusculas</h1>
+          <p className="result">{this.state.Frase.toLocaleUpperCase()}</p>
+          <input
+            className="content"
+            type="text"
+            onChange={this.conversion}
+            value={this.state.Frase}
+          />
+        </div>
       </>
     );
   }
