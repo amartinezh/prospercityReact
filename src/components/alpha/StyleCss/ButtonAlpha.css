@@ -1,0 +1,28 @@
+.ButtonAlpha {
+    background-color: #0e83aeed;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    /* position: fixed; */
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #e2b9b9eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+  
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+  }
+  
+  .ButtonAlpha:hover {
+    transform: rotate(224deg);
+    background-color: #234c5bed;
+    box-shadow: 0px 5px 25px rgba(250, 97, 97, 0.5);
+  }
