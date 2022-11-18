@@ -10,6 +10,7 @@ import Calcula from './components/Calcula/calculaComponent';
 import Alpha from './components/alpha/Alpha';
 import MayusJeison from './components/mayusjeison/MayusJeison';
 import { ButtonAlpha } from './components/alpha/ButtonAlpha';
+import { ConvertirAMayuscula } from './components/ConvertirAMayuscula/ConvertirAMayuscula';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
     <Alpha />
     <ButtonAlpha />     
     <MayusJeison/>
+    <ConvertirAMayuscula />
   </React.StrictMode>
 );
 
