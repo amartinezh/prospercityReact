@@ -14,6 +14,7 @@ import { ConvertirAMayuscula } from './components/ConvertirAMayuscula/ConvertirA
 import {JumpForce} from './components/JumpForce/JumpForce';
 import {TeamList} from './components/TeamList/TeamList';
 import {TeamItem} from './components/TeamItem/TeamItem';
+import { JumpforceValida } from './components/alpha/JumpforceValida/JumpforceValida';
 
 const TeamMembers=[
   {
@@ -74,6 +75,7 @@ root.render(
     </TeamList>
     <MayusJeison/>
     <ConvertirAMayuscula />
+    <JumpforceValida />
   </React.StrictMode>
 );
 
