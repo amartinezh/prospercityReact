@@ -1,0 +1,65 @@
+.App-fotoTeamMember {
+    height: 15vmin;
+    pointer-events: none;
+    margin: 10px;
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-fotoTeamMember {
+      animation: App-fotoTeamMember-spin infinite 20s linear;
+    }
+  }
+  
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     
+   
+}
+
+
+.team-grid-item img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.App-TeamMember {
+    background-color: #61dafb;
+    max-height: auto;
+    width: 40%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    margin: 10px;
+}
+
+.MemberName {
+    margin-top: 0px;
+    background-color: #282c34;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + vmin);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+  @keyframes App-fotoTeamMember-spin {
+    from {
+      transform: rotateY(360deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
